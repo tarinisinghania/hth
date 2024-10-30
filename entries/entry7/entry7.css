@@ -127,24 +127,45 @@
 
  /* Media query for screens with a maximum width of 768px (tablet size) */
 @media (max-width: 768px) {
-  .image-container img {
-    width: 60%; /* reduce image width to 75% of parent container */
-    height: 60%; /* reduce image height to 75% of parent container */
+  .centered-right p {
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    border: 5px solid beige;
+    border-radius: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    top: 12em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: beige;
   }
-  body {
-      background-color: rgb(60, 0, 0);
+
+  .centered-right h2 {
+    position: absolute;
+    width: 900px;
+    height: 75px;
+    background-color: beige;
+    border: 5px solid beige;
+    border-radius: 15px;
+    font-family: sans-serif;
+    padding: 30px;
+    margin-bottom: 10em;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    top: 30em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(27, 59, 217);
   }
-  .hover-image {
-      background-color: rgb(60, 0, 0);
-      top: -15em;
-  }
-  .image-container3 {
-      position: fixed; 
-     top: 700px; 
-      right: 10px; 
-      width: fit-content; 
-      margin: 0; 
-    }
+  
 }
 
 /* Media query for screens with a maximum width of 480px (mobile size) */
