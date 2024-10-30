@@ -137,7 +137,7 @@
     border-radius: 15px;
     font-family: sans-serif;
     padding: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     text-align: left;
     font-size: 12px;
     font-weight: bold;
@@ -157,7 +157,7 @@
     border-radius: 15px;
     font-family: sans-serif;
     padding: 30px;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     text-align: left;
     font-size: 12px;
     font-weight: bold;
@@ -169,7 +169,7 @@
   }
 
   .image {
-    margin-top: 10em; 
+    margin-top: 5em; 
     text-align: center; 
  }
 }
