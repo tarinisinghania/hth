@@ -132,12 +132,12 @@
   .centered-right p {
     position: absolute;
     width: 250px;
-    height: 100px;
+    height: 80px;
     border: 5px solid beige;
     border-radius: 15px;
     font-family: sans-serif;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-align: left;
     font-size: 12px;
     font-weight: bold;
@@ -151,7 +151,7 @@
   .centered-right h2 {
     position: absolute;
     width: 250px;
-    height: 50px;
+    height: 40px;
     background-color: beige;
     border: 5px solid beige;
     border-radius: 15px;
@@ -167,4 +167,9 @@
     text-align: center;
     color: rgb(27, 59, 217);
   }
+
+  .image {
+    margin-top: 10em; 
+    text-align: center; 
+ }
 }
