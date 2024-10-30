@@ -173,7 +173,7 @@
  }
  .image-container2 {
   top: 30em;
-  left: 8em;
+  align-items: center;
 }
 .image-container2 img {
   width: 50px;
