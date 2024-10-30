@@ -15,7 +15,7 @@
     background-color: #111;
     margin: 0; /* Remove default margin */
     height: 100vh; /* Full height of the viewport */
-    background-image: url('Animation.gif'); /* Path to your GIF */
+    background-image: url('animation.gif'); /* Path to your GIF */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background */
     background-repeat: no-repeat; /* Prevent the background from repeating */
@@ -27,7 +27,7 @@
     width: 70%;
     margin: 0; /* Remove default margin */
     height: 100vh; /* Full height of the viewport */
-    background-image: url('Animation.gif'); /* Path to your GIF */
+    background-image: url('animation.gif'); /* Path to your GIF */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background */
     background-repeat: no-repeat; /* Prevent the background from repeating */
