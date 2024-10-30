@@ -1,0 +1,76 @@
+
+body {
+
+    background-color: rgb(79, 2, 2);
+    background-image: url(hell.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+
+    color: rgb(3, 33, 78);
+    text-align: center;
+    font-size: 100px;
+    font-family: boxing;
+    src: url(boxing.css);
+    font-weight: 900x;
+    border: dotted;
+    border-color: rgb(20, 159, 239);
+    background-image: url(heaven.jpeg);
+    background-size: cover;
+    opacity: 70%;
+    padding: -20px;
+  
+}
+h2 {
+
+    color: rgb(3, 33, 78);
+    text-align: center;
+    font-size: 80px;
+    font-family: fantasy;
+    font-style: oblique;
+    text-indent: 10px;
+    border: dotted;
+    border-color: rgb(20, 159, 239);
+    background-image: url(heaven.jpeg);
+    background-size: cover;
+    padding: -50px;
+    opacity: 70%;
+    
+}
+h3 {
+
+    color: rgb(5, 50, 101);
+    text-align: center;
+    font-size: 80px;
+    font-family: boxing;
+    src: url(boxing.css);
+    font-weight: bolder;
+    border: dotted;
+    border-color: rgb(20, 159, 239);
+    background-image: url(heaven.jpeg);
+    background-size: cover;
+    padding: -50px;
+    opacity: 70%;
+
+}
+.mask1 {
+    mask-image: url(text.png);
+    mask-size: 600px 400px;
+    mask-repeat: no-repeat;
+  }
+a:link {
+
+    color: rgb(5, 11, 101);
+    text-decoration: none;
+}
+a:visited { 
+
+    color: rgb(5, 11, 101);
+}
+a:hover {
+
+    color: rgb(8, 96, 163)
+}

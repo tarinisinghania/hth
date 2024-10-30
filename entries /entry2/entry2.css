@@ -1,0 +1,243 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 10px;
+    top: 10px;
+    margin-left: 60px;
+    align-items: center;
+  }
+
+  @font-face {
+    font-family: mahaputra;
+    src: url(Mahaputra.ttf);
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: mahaputra;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+color: orange;
+  }
+
+ 
+  body {
+    background-color: black;
+    margin-top: 30px;
+
+}
+
+.image-container {
+  position: relative;
+  width: fit-content;
+  margin: 0; 
+}
+
+.image-container img {
+ width: 80px;
+ height: 80px;
+}
+
+.hover-text {
+  position: absolute;
+  color: white;
+  left: 7em;
+  top: 2em;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  opacity: 0; 
+  transition: opacity 0.3s; 
+}
+
+.image-container:hover .hover-text {
+  opacity: 1;
+}
+
+.image-container1 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container1 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text1 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container1:hover .hover-text1 {
+    opacity: 1;
+  }
+  
+  .image-container2 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container2 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text2 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container2:hover .hover-text2 {
+    opacity: 1;
+  }
+
+  .image-container3 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container3 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text3 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container3:hover .hover-text3 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container4 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text4 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container4:hover .hover-text4 {
+    opacity: 1;
+  }
+
+  .image-container5 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container5 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text5 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container5:hover .hover-text5 {
+    opacity: 1;
+  }
+  
+  .image-container6 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container6 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text6 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container6:hover .hover-text6 {
+    opacity: 1;
+  }
+  
+  
+  

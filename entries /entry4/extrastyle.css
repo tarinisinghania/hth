@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-video {
+    position: fixed;
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-overlay {
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 6em;
+    padding-right: 6em;
+    z-index: 1;
+}

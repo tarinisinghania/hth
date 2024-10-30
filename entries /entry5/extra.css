@@ -1,0 +1,23 @@
+body {
+
+    background-image: url(fear.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+
+.main {
+
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 6em;
+    padding-right: 6em;
+  
+  }
