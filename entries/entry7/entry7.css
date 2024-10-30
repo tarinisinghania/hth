@@ -169,11 +169,10 @@
   }
 
   .image {
-    margin-top: 8em; 
-    text-align: center; 
+    display: none;
  }
  .image-container2 {
   top: 30em;
-  align-items: center;
+  left: 50%;
 }
 }
