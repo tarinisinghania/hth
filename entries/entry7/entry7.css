@@ -129,7 +129,7 @@
 @media (max-width: 768px) {
   .centered-right p {
     position: absolute;
-    width: 900px;
+    width: 500px;
     height: 150px;
     border: 5px solid beige;
     border-radius: 15px;
@@ -148,7 +148,7 @@
 
   .centered-right h2 {
     position: absolute;
-    width: 900px;
+    width: 500px;
     height: 75px;
     background-color: beige;
     border: 5px solid beige;
@@ -172,7 +172,7 @@
 @media (max-width: 600px) {
   .centered-right p {
     position: absolute;
-    width: 900px;
+    width: 250px;
     height: 150px;
     border: 5px solid beige;
     border-radius: 15px;
@@ -191,7 +191,7 @@
 
   .centered-right h2 {
     position: absolute;
-    width: 900px;
+    width: 250px;
     height: 75px;
     background-color: beige;
     border: 5px solid beige;
