@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Obviously;
+    src: url(ObviouslyDemo-Regular.otf);
+}
+.text {
+
+    align-items: center;
+    font-family: Obviously;
+
+}
