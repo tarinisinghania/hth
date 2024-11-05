@@ -4,7 +4,19 @@
 }
 .text {
 
+    width: 200px;
+    height: 200px;
     align-items: center;
     font-family: Obviously;
 
+}
+
+@font-face {
+    font-family: Beastly;
+    src: url(BeastlyDemo-60Point.otf);
+}
+
+h1 {
+    font-family: Beastly;
+    
 }
