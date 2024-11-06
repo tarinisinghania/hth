@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right,#d30303, #e08b02);
+    background: linear-gradient(270deg ,#d30303, #e08b02);
     animation: backgound 10s ease infinite;
 }
 
