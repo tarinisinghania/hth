@@ -34,7 +34,6 @@ h1 {
 .container div {
     width: 300px;
     height: 100%;
-    padding-top: 0;
     padding-left: 1em;
     padding-right: 1em;
     font-family: Obviously;
@@ -43,7 +42,7 @@ h1 {
 
 .text {
     order: 1;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
