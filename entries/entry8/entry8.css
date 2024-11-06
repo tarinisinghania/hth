@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right,#d30303, #e05002);
+    background: linear-gradient(to right,#d30303, #e08b02);
 }
 @font-face {
     font-family: Obviously;
@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0.5em;
+    padding: 1em;
     font-family: Obviously;
      color: white;
 
