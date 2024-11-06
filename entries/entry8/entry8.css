@@ -86,9 +86,15 @@ h1 {
     padding-right: 1em;
 }
 
-.text2 {
+.fact {
     order: 4;
     padding-top: 200px;
     padding-left: 1em;
+    font-family: Obviously wide;
+}
+
+.text2 {
+    order: 5;
+    padding-top: 200px;
     padding-right: 1em;
 }
