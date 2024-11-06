@@ -39,12 +39,10 @@ h1 {
 
 .text {
     order: 1;
-    font-size: 50px;
 }
 
 .text1 {
     order: 2;
-    padding-top: 2em;
 }
 
 .text2 {
