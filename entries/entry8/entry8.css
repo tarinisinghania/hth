@@ -25,7 +25,7 @@ h1 {
     display: flex;
     width: 300px;
     height: auto;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1em;
     font-family: Obviously;
      color: white;
