@@ -1,5 +1,8 @@
 body {
     background: linear-gradient(to right,#d30303, #e08b02);
+    background-image: url(brain\ texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @font-face {
