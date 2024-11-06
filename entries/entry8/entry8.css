@@ -21,7 +21,7 @@ h1 {
     src: url(ObviouslyDemo-Regular.otf) format(Opentype);
 }
 
-.container {
+.container div {
     display: flex;
     width: 300px;
     height: auto;
