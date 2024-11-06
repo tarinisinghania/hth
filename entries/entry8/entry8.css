@@ -12,6 +12,8 @@ h1 {
     font-size: 200px;
     text-align: center;
     color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
 
