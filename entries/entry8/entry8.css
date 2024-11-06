@@ -12,14 +12,10 @@ body {
         background-position: 0% 50%;
     }
     25% {
-        background: linear-gradient(270deg, #d36b03, #71e002);
+        background: linear-gradient(270deg, #03d341, #02e0c6);
         background-position: 25% 50%;
     }
     50% {
-        background: linear-gradient(270deg, #03d345, #02e0d1);
-        background-position: 50% 50%;
-    }
-    75% {
         background: linear-gradient(270deg, #0375d3, #9602e0);
         background-position: 75% 50%;
     }
