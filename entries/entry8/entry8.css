@@ -5,13 +5,19 @@ body {
 
 @keyframes background {
     0% {
-        background-position: 0% 50%; /* Start position */
+        background: linear-gradient(270deg ,#d30303, #e08b02);
+    }
+    25% {
+        background: linear-gradient(270deg ,#d36b03, #71e002);
     }
     50% {
-        background-position: 100% 50%; /* Midway position */
+        background: linear-gradient(270deg ,#03d345, #02e0d1);
+    }
+    75% {
+        background: linear-gradient(270deg ,#0375d3, #3d02e0);
     }
     100% {
-        background-position: 0% 50%; /* End position */
+        background: linear-gradient(270deg ,#3a03d3, #e0029d);
     }
 }
 
