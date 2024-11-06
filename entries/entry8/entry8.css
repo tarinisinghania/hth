@@ -1,5 +1,18 @@
 body {
     background: linear-gradient(to right,#d30303, #e08b02);
+    animation: backgound 10s ease infinite;
+}
+
+@keyframes background {
+    0% {
+        background-position: 0% 50%; /* Start position */
+    }
+    50% {
+        background-position: 100% 50%; /* Midway position */
+    }
+    100% {
+        background-position: 0% 50%; /* End position */
+    }
 }
 
 @font-face {
