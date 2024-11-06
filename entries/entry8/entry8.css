@@ -5,7 +5,8 @@
 .text {
 
     width: 200px;
-    height: 200px;
+    height: auto;
+    margin: 1em;
     align-items: center;
     font-family: Obviously;
 
@@ -18,5 +19,6 @@
 
 h1 {
     font-family: Beastly;
+    font-size: 200px;
 
 }
