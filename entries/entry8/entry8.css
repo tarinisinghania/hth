@@ -43,7 +43,8 @@ h1 {
 
 .text {
     order: 1;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .text1 {
