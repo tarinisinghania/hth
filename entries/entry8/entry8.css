@@ -1,12 +1,12 @@
 body {
     background: linear-gradient(270deg ,#d30303, #e08b02);
-    animation: backgound 10s ease infinite;
+    animation: gradient 10s ease infinite;
     margin: 0;
     min-height: 100vh;
     background-size: 400% 400%;
 }
 
-@keyframes background {
+@keyframes gradient {
     0% {
         background: linear-gradient(270deg, #d30303, #e08b02);
         background-position: 0% 50%;
