@@ -45,6 +45,10 @@ h1 {
     font-family: Obviously;
     src: url(ObviouslyDemo-Regular.otf) format(Opentype);
 }
+@font-face {
+    font-family: Obviously wide;
+    src: url(ObviouslyDemo-Super.otf) format(Opentype);
+}
 
 .container {
     display: flex;
@@ -69,12 +73,18 @@ h1 {
     font-weight: bold;
 }
 
-.text1 {
+.Intro {
     order: 2;
+    padding-top: 400px;
+    transform: rotate(90deg);
+    font-family: Obviously wide;
+}
+.text1 {
+    order: 3;
     padding-top: 400px;
 }
 
 .text2 {
-    order: 3;
+    order: 4;
     padding-top: 200px;
 }
