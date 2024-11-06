@@ -32,7 +32,9 @@ h1 {
 .container div {
     width: 300px;
     height: auto;
-    padding: 1em;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
     font-family: Obviously;
      color: white;
 }
