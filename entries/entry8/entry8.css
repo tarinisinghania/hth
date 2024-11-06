@@ -1,20 +1,6 @@
 body {
     background: linear-gradient(to right,#d30303, #e08b02);
 }
-@font-face {
-    font-family: Obviously;
-    src: url(ObviouslyDemo-Regular.otf) format(Opentype);
-}
-.text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 1em;
-    font-family: Obviously;
-     color: white;
-
-}
 
 @font-face {
     font-family: Beastly;
@@ -27,4 +13,20 @@ h1 {
     text-align: center;
     color: white;
 
+}
+
+
+@font-face {
+    font-family: Obviously;
+    src: url(ObviouslyDemo-Regular.otf) format(Opentype);
+}
+
+.container {
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    padding: 1em;
+    font-family: Obviously;
+     color: white;
 }
