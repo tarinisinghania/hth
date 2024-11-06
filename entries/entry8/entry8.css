@@ -24,8 +24,10 @@ h1 {
 
 .container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1em;
 }
 
 .container div {
