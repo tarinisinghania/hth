@@ -30,3 +30,18 @@ h1 {
     font-family: Obviously;
      color: white;
 }
+
+.text {
+    display: flex;
+    order: 1;
+}
+
+.text1 {
+    display: flex;
+    order: 1;
+}
+
+.text2 {
+    display: flex;
+    order: 1;
+}
