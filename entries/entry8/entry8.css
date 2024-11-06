@@ -3,11 +3,11 @@
     src: url(ObviouslyDemo-Regular.otf) format(Opentype);
 }
 .text {
-
-    width: 500px;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     margin: 0.5em;
-    text-align: center;
     font-family: Obviously;
 
 }
