@@ -33,7 +33,7 @@ h1 {
 
 .text {
     display: flex;
-    order: 1;
+    order: 2;
 }
 
 .text1 {
@@ -43,5 +43,5 @@ h1 {
 
 .text2 {
     display: flex;
-    order: 1;
+    order: 3;
 }
