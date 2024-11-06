@@ -21,27 +21,28 @@ h1 {
     src: url(ObviouslyDemo-Regular.otf) format(Opentype);
 }
 
-.container div {
+.container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div {
     width: 300px;
     height: auto;
-    flex-direction: row;
     padding: 1em;
     font-family: Obviously;
      color: white;
 }
 
 .text {
-    display: flex;
     order: 2;
 }
 
 .text1 {
-    display: flex;
     order: 1;
 }
 
 .text2 {
-    display: flex;
     order: 3;
 }
