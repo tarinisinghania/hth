@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: Beastly;
-    src: url(BeastlyDemo-60Point.otf) format(Opentype);
+    src: url(BeastlyDemo-60Point.otf) format(opentype);
 }
 
 h1 {
@@ -44,11 +44,11 @@ h1 {
 
 @font-face {
     font-family: Obviously;
-    src: url(ObviouslyDemo-Regular.otf) format(Opentype);
+    src: url(ObviouslyDemo-Regular.otf) format(opentype);
 }
 @font-face {
     font-family: Obviously-wide;
-    src: url(ObviouslyDemo-Super.otf) format(Opentype);
+    src: url(ObviouslyDemo-Super.otf) format(oopentype);
 }
 
 .container {
