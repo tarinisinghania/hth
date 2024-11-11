@@ -112,27 +112,45 @@ h1 {
         font-size: 60px;
     }
     .container {
-        margin-left: 20px;
-    }
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+        }
+    .container div {
+        width: 400px;
+        height: 100%;
+        color: white; 
+     }
     .text {
         font-size: 14px;
+        text-align: center;
+        margin-left: 45px;
     }
     .text1 {
         font-size: 12px;
-        margin-top: 180px;
+        margin-top: 10px;
+        margin-left: 45px;
+        text-align: center;
     }
     .text2 {
         font-size: 12px;
-        margin-top: 400px;
+        margin-top: 10px;
+        margin-left: 45px;
+        text-align: center;
     }
     .Intro {
-        margin-right: -50px;
-        margin-left: -150px;
-        margin-top: 260px;
+        transform: rotate(0deg);
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 45px;
+        
     }
     .fact {
-        margin-right: -50px;
-        margin-left: -120px;
-        margin-top: 450px;
+        transform: rotate(0deg);
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 45px;
     }
 }
