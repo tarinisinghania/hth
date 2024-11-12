@@ -21,3 +21,11 @@
 .body {
     display: none;
 }
+
+@media (max-width: 800px) {
+    .image img {
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 200px;
+    }
+}
