@@ -1,0 +1,23 @@
+body {
+    background: radial-gradient(circle, rgb(249, 137, 176), rgb(249, 3, 85));
+}
+
+@font-face {
+    font-family: retail;
+    src: url(RetailTextDemo-Medium.otf) format(opentype);
+}
+.text {
+    width: 500px;
+    height: 100%;
+    color: white;
+    padding: 0;   
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.text p {
+    font-family: retail;
+    font-size: 30px;
+    text-align: center;
+    
+}
