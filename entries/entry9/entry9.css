@@ -26,6 +26,6 @@ html, body {
 
 @media (max-width: 800px) {
     .image img{
-        width: 300px;
+        width: 250px;
     }
 }
