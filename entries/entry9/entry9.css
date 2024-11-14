@@ -1,12 +1,17 @@
-.image {
-    padding: 0;
-    margin: 0;
+html, body {
+    height: 100%; 
+    margin: 0; 
 }
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
 .image img {
     width: 450px;
-    height: 100%;
-    margin-left: 500px;
-    margin-top: 200px;
     animation: revolve 8s linear infinite;
 }
 
@@ -18,14 +23,9 @@
         transform: rotate(360deg);}
 }
 
-.body {
-    display: none;
-}
 
 @media (max-width: 800px) {
-    .image img {
-        width: 250px;
-        margin-left: 120px;
-        margin-top: 200px;
+    .image img{
+        width: 300px;
     }
 }
