@@ -17,9 +17,9 @@ body {
     color: white;
     font-family: "xanti-typewriter-variable", sans-serif;
     font-size: 30px;
-    border-right: 2px solid white; /* Cursor effect */
-    white-space: wrap; /* Prevent text wrapping */
-    overflow: hidden; /* Hide the overflow */
+    border-right: 2px solid white; 
+    white-space: wrap; 
+    overflow: hidden; 
     animation: blink-caret 0.75s step-end infinite;
 }
 

@@ -6,13 +6,13 @@ function type() {
     if (index < text.length) {
         typewriterText.textContent += text.charAt(index);
         index++;
-        setTimeout(type, 50); // Adjust typing speed here (in milliseconds)
+        setTimeout(type, 50); 
     } else {
-        typewriterText.style.borderRight = 'none'; // Remove cursor after typing is done
+        typewriterText.style.borderRight = 'none';
     }
 }
 
-type(); // Start the typing effect
+type(); 
 
 
 let button = document.querySelector(".button");
