@@ -2,6 +2,7 @@ body {
     display: flex;
     background-color: #e3380d;
 }
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -33,14 +34,15 @@ body {
 
 .wrapper1 {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    flex-direction: column;
     height: 100vh;
     margin: 20px;
   }
 
 .button {
     background-color: white;
+    width: 20px;
+    height: auto;
     border-radius: 20px;
     padding: 20px 40px;
     color: black;
@@ -66,4 +68,15 @@ body {
 
 .new-content:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Change background on hover */
+}
+.image {
+    display: flex;
+    flex-direction: column;
+   
+    height: 100vh;
+    margin: 20px;
+}
+.image img{
+    width: 50px;
+    height: auto;
 }
