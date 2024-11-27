@@ -50,3 +50,31 @@ body {
     margin-left: 20px;
   }
 }
+.image-container1 {
+  position: relative;
+  width: fit-content;
+  margin: 20px; 
+  right: 85em;
+}
+
+.image-container1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.hover-text1 {
+  position: absolute;
+  color: white;
+  left: 7em;
+  top: 2em;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  opacity: 0; 
+  transition: opacity 0.3s; 
+}
+
+.image-container1:hover .hover-text1 {
+  opacity: 1;
+}
