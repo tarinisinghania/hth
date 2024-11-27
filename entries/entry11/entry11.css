@@ -1,6 +1,7 @@
 body {
     display: flex;
     background-color: #e3380d;
+    cursor: url('lotus.png'), auto;
 }
 
 .wrapper {
