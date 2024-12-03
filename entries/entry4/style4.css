@@ -7,7 +7,7 @@ body {
 
 @font-face {
     font-family: Array;
-    src: url(Array-Bold.ttf) format('ttf');
+    src: url(Array-Bold.ttf) format('truetype');
 }
 h1 {
 
@@ -15,7 +15,7 @@ h1 {
     text-align: left;
     font-size: 100px;
     font-family: Array;
-    font-weight: 900x;
+    font-weight: 900;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -67,3 +67,31 @@ color: red;
   .image-container5:hover .hover-text5 {
     opacity: 1;
   }
+
+  @media (max-width: 800px) {
+    h1 {
+      color:white;
+      text-align: center;
+      font-size: 50px;
+      font-family: Array;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+  }
+  a:link {
+
+    color: white;
+    text-decoration: none;
+}
+a:visited { 
+
+    color: white;
+}
+a:hover {
+  display: none;
+}
+span:hover a {
+  display: none;
+} 
+}
+  
