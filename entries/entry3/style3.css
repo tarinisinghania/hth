@@ -101,5 +101,9 @@ body {
       padding-top: 0em;
       color: rgb(236, 224, 113);
     }
+    .image-container6 img {
+      width: 40px;
+      height: 40px;
+    }
   }
   
