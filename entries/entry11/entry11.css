@@ -128,6 +128,7 @@ body {
         padding: 10px 20px;
         color: black;
         font-size: 20px;
+        margin: 0px;
       }
       
       .button:hover {
