@@ -85,10 +85,10 @@ color: red;
  }
   
 a:hover {
-  display: none;
+  color: greenyellow;
 }
 span:hover a {
-  display: none;
+  color: red;
 } 
 .image-container5 img {
   width: 40px;
