@@ -2,41 +2,14 @@ body {
 
     background-color: black;
 }
-
-.image-container {
-    position: relative;
-    width: 500px;
-    margin: 0 auto; 
-  }
-  
-  .image-container img {
-    position: relative; 
-    display: block; 
-    margin: 0 auto; 
-    max-width: 100%; 
-    height: auto; 
-    padding-top: 18em;
-    padding-left: 0;
-  }
-  
   .hover-image {
-    position: absolute;
-    top: -25em; 
-    left: -27em; 
-    width: 250%; 
+    width: 100px; 
     height: auto; 
-    opacity: 0; 
-    transition: opacity 0.3s; 
-    z-index: 1;
     background-color: black;
     ;
-    
-  }
+}
   
-  .image-container:hover .hover-image {
-    opacity: 1;
-    
-  }
+
   
  .image-container3 {
     position: fixed; 
@@ -73,41 +46,19 @@ body {
   @media (max-width: 800px) {
     
     body {
-        background-color: black;
+        background-color: rgb(90, 0, 0);
     }
-    .image-container {
-        position: relative;
-        width: 300px;
-        margin: 0 auto; 
-    }
-    .image-container img {
-        position: relative; 
-        display: block; 
-        margin: 0 auto; 
-        max-width: 100%; 
-        height: auto; 
-        padding-top: 18em;
-        padding-left: 0;
-    }
-    
-    .hover-image {
+      
+    .hover-image img {
       position: absolute;
-      top: -10em; 
-      left: -10em; 
-      width: 200%; 
+      top: 10em; 
+      left: 5em; 
+      width: 250px; 
       height: auto; 
-      opacity: 0; 
-      transition: opacity 0.3s; 
-      z-index: 1;
-      background-color: black;
-      ;
-      
+      background-color: rgb(90, 0, 0);
+        ;
     }
-  
-    .image-container:hover .hover-image {
-      opacity: 1;
       
-    }
      .image-container3 {
         position: fixed; 
         top: 10px; 
@@ -134,5 +85,4 @@ body {
         transition: opacity 0.3s; 
       }
    
-      
- }
+      }
