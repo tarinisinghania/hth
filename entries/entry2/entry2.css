@@ -238,6 +238,61 @@ color: orange;
   .image-container6:hover .hover-text6 {
     opacity: 1;
   }
+  .image-container7 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container7 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text7 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container7:hover .hover-text7 {
+    opacity: 1;
+  }
+
+  .image-container8 {
+    position: relative;
+    width: fit-content;
+    margin: 0; 
+  }
+  
+  .image-container8 img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hover-text8 {
+    position: absolute;
+    color: white;
+    left: 7em;
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+  }
+  
+  .image-container8:hover .hover-text8 {
+    opacity: 1;
+  }
   
   
   
