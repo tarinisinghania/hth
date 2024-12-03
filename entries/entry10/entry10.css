@@ -44,10 +44,10 @@ body {
 
 @media (max-width: 800px) {
   .text p {
-    width: 200px;
     font-size: 16px;
   }
   .text {
+    width: 200px;
     margin-left: 30px;
   }
   .button-container {
