@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.image-container {
+    text-align: center;
+}
+img {
+    margin: 20px;
+    margin-top: 40px;
+    width: 300px;
+    height: auto;
+}
+h3 {
+    color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
