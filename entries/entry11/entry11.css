@@ -81,3 +81,83 @@ body {
     width: 50px;
     height: auto;
 }
+
+@media (max-width: 800px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+    .text {
+        color: white;
+        font-family: "xanti-typewriter-variable", sans-serif;
+        font-size: 16px;
+        border-right: 2px solid white; 
+        white-space: wrap; 
+        overflow: hidden; 
+        animation: blink-caret 0.75s step-end infinite;
+    }
+    
+    @keyframes blink-caret {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: white;
+        }
+    }
+    
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 5px;
+      }
+    
+    .button {
+        background-color: white;
+        width: 10px;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: black;
+        font-size: 20px;
+      }
+      
+      .button:hover {
+        opacity: .8;
+        cursor: pointer;
+        transition: 90ms ease;
+      }
+    
+      .new-content {
+        color: white; /* Text color */
+        font-family: "xanti-typewriter-variable", sans-serif; /* Font family */
+        font-size: 16px; /* Font size */
+        margin: 30px; /* Space above the new content */
+        padding: 5px; /* Padding around the text */
+        background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+        border-radius: 10px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+    
+    .new-content:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Change background on hover */
+    }
+    .image {
+        display: flex;
+        flex-direction: column;
+       
+        height: 100vh;
+        margin: 20px;
+    }
+    .image img{
+        width: 30px;
+        height: auto;
+    }
+}
