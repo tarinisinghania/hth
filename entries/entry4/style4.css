@@ -70,7 +70,6 @@ color: red;
 
   @media (max-width: 800px) {
     h1 {
-      color:white;
       text-align: center;
       font-size: 50px;
       font-family: Array;
@@ -78,20 +77,22 @@ color: red;
       padding: 0px;
       border: 0px;
   }
-  a:link {
-
-    color: white;
-    text-decoration: none;
-}
-a:visited { 
-
-    color: white;
-}
+ span a:link {
+  color: red;
+ }
+ a:link {
+  color: greenyellow;
+ }
+  
 a:hover {
   display: none;
 }
 span:hover a {
   display: none;
 } 
+.image-container5 img {
+  width: 40px;
+  height: 40px;
+}
 }
   
